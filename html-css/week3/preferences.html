@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Preferences section</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+    <main class="main_container">
+        <header>
+            <nav class="nav-bar">
+                <ul class="nav-items"> 
+                    <a href="index.html"><li>Profile details</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="preferences.html"><li>Shopping preferences</li></a>
+                    <a href="payment.html"><li>Payment</li></a>
+                </ul>
+            </nav>
+            <img id="logo" src="logo1.jpg" alt="logo">
+        </header>
+        <div class="signup-text">
+            <h1>Sign up to yourcustomtailor.com</h1>
+            <h2>Step 3/4 - time to learn about your preferences</h2>
+            <h3>Progress</h3>
+            <div class="progress-bar">
+                <div class="achieved-progress3"></div>
+            </div>
+            <p>what kind of items are you interested in offers on?</p>
+        </div> 
+        <form action="/signup" method="post">
+            <div class="checkbox-preference">
+             <div class="wrapper">
+                <label for="apparel">Apparel</label>
+                <input  type="checkbox" id="apparel" name="aparrel" checked>
+                <label for="jewelery">Jewelery</label>
+                <input class="checkbox-container" type="checkbox" id="jewelery" name="jewelery" checked>
+            </div>
+            <div class="wrapper">
+                <label for="accesories">Accesories</label>
+                <input class="checkbox-container" type="checkbox" id="accesories" name="accesories" checked>
+                <label for="shoes">Shoes</label>
+                <input class="checkbox-container" type="checkbox" id="shoes" name="shoes" checked>
+            </div>
+            <div class="wrapper">
+                <label for="handbags">Handbags</label>
+                <input class="checkbox-container" type="checkbox" id="handbags" name="handbags">
+            </div>
+            <p>Choose the images that best resemble your style</p>
+            <div class="preference-image">
+              <div class="image">  
+                <img src="highfashion-outfit.jpg" alt="High-fashion outfit">
+                  <div class= "image-container">
+                    <label for="outfit1">Select</label>
+                    <input type="checkbox" id="outfit" name="outfit1" checked>
+                  </div>
+              </div>
+              <div class="image">  
+                <img src="sustainable-outfit.jpg" alt="Sustainable-outfit">
+                  <div class= "image-container">
+                    <label for="outfit2">Select</label>
+                    <input type="checkbox" id="outfit2" name="outfit2">
+                  </div>
+                </div>                     
+              <div class="image">  
+                <img src="highfashion-purse.jpg" alt="highfashion-purse">
+                  <div class= "image-container">
+                    <label for="purse">Select</label>
+                    <input type="checkbox" id="purse" name="purse" checked>
+                  </div>
+                </div>                           
+              <div class="image">  
+                <img src="eco-friendly-bags.jpg" alt="eco-friendly-bags">
+                  <div class= "image-container">
+                    <label for="bag">Select</label>
+                    <input type="checkbox" id="bag" name="bag" checked>
+                  </div>
+              </div>  
+            </div>
+            <div class="preference-image">
+                <div class="image">  
+                  <img src="conceptual-accessories.jpg" alt="conceptual-accessories">
+                      <div class= "image-container">
+                        <label for="accesories1">Select</label>
+                        <input type="checkbox" id="accesories1" name="accesories1" >
+                      </div>
+                </div>                           
+                <div class="image">  
+                  <img src="natural-hair-accessories.jpg" alt="natural-hair-accessories">
+                    <div class= "image-container">
+                      <label for="accesories2">Select</label>
+                      <input type="checkbox" id="accesories2" name="accesories2">
+                    </div>
+                </div>                           
+                <div class="image">  
+                  <img src="high-heels.jpg" alt="high-heels">
+                    <div class= "image-container">
+                      <label for="shoes1">Select</label>
+                      <input type="checkbox" id="shoes1" name="shoes1" checked>
+                    </div>
+                </div>                           
+                <div class="image">  
+                  <img src="sandals.jpg" alt="sandals">
+                    <div class= "image-container">
+                      <label for="shoes2">Select</label>
+                      <input type="checkbox" id="shoes2" name="shoes2" checked>
+                    </div>
+                </div> 
+            </div>
+        </form>                          
+      </section>
+      <footer>
+        <div class="page-button">
+          <a href="payment.html"> Next step</a>
+        </div> 
+      </footer>     
+    </main>
+</body>
+</html>          

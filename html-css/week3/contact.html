@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact section</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+    <main class="main_container">
+        <header>
+            <nav class="nav-bar">
+                <ul class="nav-items"> 
+                    <a href="index.html"><li>Profile details</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="preferences.html"><li>Shopping preferences</li></a>
+                    <a href="payment.html"><li>Payment</li></a>
+                </ul>
+            </nav>
+            <img id="logo" src="logo1.jpg" alt="logo">
+        </header>
+        <div class="signup-text">
+            <h1>Sign up to yourcustomtailor.com</h1>
+            <h2>Step 2/4 - how can we reach you?</h2>
+            <h3>Progress</h3>
+            <div class="progress-bar">
+                <div class="achieved-progress2"></div>
+            </div>
+            <p>We will probably need to stay in touch somehow. Let us know how we can reach you?</p>
+        </div>
+        <div class="signup-form">
+            <form action="/signup" method="post">
+                <div class="form-container">
+                    <label for="email">Email*</label>
+                    <input class="input-box" type="email" id="email" name="email" required pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$">
+                    <label for="phone">Phone</label>
+                    <input class="input-box" type="number" id="phone" name="phone" pattern="[-+]?[0-9]">
+                </div>
+                <div class="form-container">
+                    <label for="password">Password*</label>
+                    <input class="input-box" type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="10">
+                </div> 
+                <div class="form-container">
+                    <label for="re-password">Re-enter Password*</label>
+                    <input class="input-box" type="password" id="re-password" name="re-password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" minlength="10">
+                </div>    
+                <p>I want to sign up for the news letter</p>
+                <div>
+                    <label for="radio">Weekely news</label>
+                    <input class="radio-button" type="radio" id="radio" name="radio"  checked>
+                    <label for="radio">Monthly news</label>
+                    <input class="radio-button" type="radio" id="radio" name="radio">
+                    <label for="radio">Don't send me news</label>
+                    <input class="radio-button" type="radio" id="radio" name="radio">
+                </div>
+            </form>
+        <footer>
+            <div class="page-button">
+                <a href="preferences.html"> Next step</a>
+            </div> 
+        </footer>         
+    </main>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to YourCustomTailor!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body>
+    <main class="main_container">
+        <header>
+            <nav class="nav-bar">
+                <ul class="nav-items"> 
+                    <a href="index.html"><li>Profile details</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="preferences.html"><li>Shopping preferences</li></a>
+                    <a href="payment.html"><li>Payment</li></a>
+                </ul>
+            </nav>
+            <img id="logo" src="logo1.jpg" alt="logo">
+        </header>
+        <section class="signup-text">
+            <h1>Sign up to yourcustomtailor.com</h1>
+        </section>   
+        <section>
+            <h2>Step 4/4 - Payment</h2>
+            <h3>Progress</h3>
+            <div class="progress-bar">
+                <div class="achieved-progress4"></div>
+            </div>
+                <p>Please fill in your payment data</p>
+        </section>
+        <div class="signup-form payment-form">
+            <form action="signup" method="post">
+                <div class="form-container">
+                    <label for="payer-name">Name on card</label>
+                    <input class="input-box" type="text" id="payer-name" name="payer-name" required>
+                </div>
+                <div class="form-container">
+                    <label for="card-type"> Card type</label>  
+                    <select class="input-box" name="card-type" required>
+                        <option value="DK">Dankort</option>
+                        <option value="VA">Visa</option>
+                        <option value="MC">MasterCard</option>
+                    </select>
+                </div>
+                <div class="form-container">
+                    <label for="card-number">Credit card number</label>
+                    <input  class="input-box" type="text" id="card-number" name="card-number" pattern="^(?=.*\d).*$" minlength="16" maxlength="16" required>
+                    <label for="card-first-name">First name</label>
+                    <input class="input-box" type="text" id="card-first-name" name="card-first-name" required>
+                </div>
+                <div class="form-container">
+                    <label for="month">Expiry month</label>
+                    <input class="number-box" type="text" id="month" name="month" required>
+                    <label for="year">Expiry Year</label>
+                    <input class="number-box" type="text" id="year" name="year" required>
+                </div>
+                <div class="form-container">
+                    <label for="ccv">CCV</label>
+                    <input class="number-box" type="text" id="ccv" name="ccv" >
+                </div> 
+            </form>
+        </div>
+        <footer>
+                <div class="page-button">
+                    <a href="index.html"> Next step</a>
+                </div> 
+        </footer>     
+    </main>
+</body>
+</html>
+                    
+                    
