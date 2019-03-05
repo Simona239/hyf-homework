@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color:rgb(84, 146, 43);
     font-family: Arial, Helvetica, sans-serif; 
@@ -247,3 +248,254 @@ input[type=checkbox]:checked ~
       
 
 
+=======
+body {
+    background-color:rgb(84, 146, 43);
+    font-family: Arial, Helvetica, sans-serif; 
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+main {
+    background-color:rgb(168, 241, 100);
+    position: relative;
+    margin:auto; 
+    margin-top: 20px;
+    width:70%;
+    padding:4em; 
+    border-radius:30px;     
+}
+
+label {
+    font-size:20px;
+    font-weight: bold;   
+}
+
+nav {
+    font-weight:400;
+    font-size:0.9em;
+    margin:0;
+    padding:0; 
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+    color: black;  
+}
+
+#logo { 
+    border-radius:20px;
+    width: 10%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;    
+} 
+
+.progress-bar{
+    width:100%;
+    height:35px;
+    border-color:rgb(211, 238, 136);
+    border-style:solid;
+    border-radius:30px; 
+    background:rgb(209, 233, 145);     
+} 
+
+.achieved-progress1, .achieved-progress2, .achieved-progress3, .achieved-progress4 {
+    background-color: rgb(182, 248, 82);
+    width: 10%;
+    height: 100%;
+    border-radius:30px;   
+} 
+
+.achieved-progress2 { 
+    background-color: rgb(182, 248, 82);
+    width: 30%;
+    height: 100%;
+    border-radius:30px;
+}
+
+.achieved-progress3 { 
+    background-color: rgb(182, 248, 82);
+    width: 50%;
+    height: 100%;
+    border-radius:30px;
+}
+
+.achieved-progress4 { 
+    background-color: rgb(182, 248, 82);
+    width: 90%;
+    height: 100%;
+    border-radius:30px;
+} 
+
+form {
+    display: inline-block;
+    margin:10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction:row;
+    margin-bottom:5px;    
+}
+
+.form-container label {
+    flex-basis:9rem;
+    flex-grow:0;
+    flex-shrink:0;
+}
+
+.signup-text h1 {
+    font-size: 35px;
+    margin-bottom:1.5em;
+    margin-top: 2em;  
+}
+
+.signup-text p{
+    font-size:18px;
+    width:70%;
+    line-height:1.5;
+}
+
+.input-box {
+    width: 30%;
+    padding:10px;
+    margin-bottom:25px;	
+    margin-right:25px;
+    background-color: rgb(209, 233, 145);
+    border-color:rgb(211, 238, 136);
+    border-radius: 20px;      
+}
+
+.profile-text {
+    width:16%;
+    font-size: 14px;
+    padding: 40px;
+    margin-top:20px;
+    margin-right:10px;
+    margin-bottom:30px;
+    margin-left:-180px;
+    font-style: italic;
+}
+
+.textarea-box { 
+    width:80%; 
+    background-color: rgb(209, 233, 145);
+    border-color:rgb(211, 238, 136);
+    margin-left: -40px;
+    border-radius: 20px;
+}
+
+input[type=checkbox]:checked ~ 
+.form-hidden {
+    display:none;
+}
+
+.form-hidden {   
+    height: 550px;
+    padding: 16px;
+    display: block;
+    clear: both;
+}
+
+.page-button a {
+    display:block;
+    text-decoration: none;
+	border:1px solid:rgb(84, 146, 43);
+    background:rgb(84, 146, 43);
+    position: absolute;
+    right:25px;
+    color: black;
+    border-radius:20px;
+    width:14%;
+    height:50px;
+    margin-bottom:30px;
+    font-size:24px;
+    text-align: center; 
+}
+
+.page-button a:hover{
+	background: var(--black);
+	color: var(--white);
+}
+
+.radio-button {
+    margin: 20px; 
+} 
+  
+.checkbox-preference {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.wrapper label {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+    
+.image-container label {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+}
+
+.preference-image {
+    display: flex;  
+    flex-flow: row wrap;  
+} 
+
+.image {
+    margin: 20px;
+    width: 200px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    margin:20px;    
+}
+
+.image-container {
+    float: right;
+} 
+
+.number-box   {
+    max-width:70px;
+    padding:10px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    background-color: rgb(209, 233, 145);
+    border-color:rgb(211, 238, 136);
+    border-radius: 20px;
+}
+ 
+.payment-form label {
+    font-size: 17px;
+} 
+      
+
+
+>>>>>>> 9632b28c70b76ae885b4952f8cf1726afbde92f4
