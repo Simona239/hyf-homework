@@ -1,0 +1,89 @@
+/*styling for My Favourite Books website */
+
+#book_site {
+    border: 5px rgb(194, 190, 142) ridge;
+    background-color: rgb(213, 214, 146);
+} 
+
+#list_box {
+    list-style-type: none;
+    text-align: center;    
+}
+
+#div1 {
+    width: 50%;
+    background-color:rgb(247, 250, 90);
+    color:rgb(92, 64, 13); 
+    margin-left: 24%;
+    margin-bottom: 5%; 
+    border: 5px rgb(255, 240, 81) ridge;
+}
+
+#heading {
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    color: rgb(92, 64, 13); 
+    font-size: 40px; 
+    font-weight: bold; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+h1 {
+    color: rgb(179, 86, 0); 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 30px; 
+}
+
+h2 {
+    color: rgb(153, 80, 13);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size:23px; 
+}
+
+h3 {
+    color:  rgba(109, 53, 5, 0.863);
+    font-size: 18px; 
+}
+
+img {
+    width: 270px; 
+    border-radius: 10%; 
+} 
+
+/*styling for Spirit Animal website */
+#spirit_animal_site {
+    background-color: rgb(200, 241, 232); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    width: 100%;  
+} 
+
+#generator_box { 
+    background-color: aquamarine;
+    position: relative;  
+    width: 60%; 
+    text-align: center; 
+    margin-left: 14%;    
+    margin-top: 14%;
+    padding: 70px; 
+    border: 5px solid rgb(179, 241, 241);
+    border-radius: 50%; 
+} 
+
+#headline {
+    color: rgb(50, 190, 120);    
+    padding-bottom: 10px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 25px;  
+} 
+
+#name {
+    border-radius: 20px; 
+    background-color:  rgb(194, 224, 209);           
+}
+
+span {
+   color: rgb(173, 169, 169);  
+   font-weight: bold; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
