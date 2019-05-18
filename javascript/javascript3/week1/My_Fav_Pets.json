@@ -1,0 +1,24 @@
+[{ 
+    "type": "cat", 
+    "name": "Ron", 
+    "personality": "hates dogs",
+    "age": 5
+}, 
+{ 
+    "type": "dog", 
+    "name": "Lokis", 
+    "personality": "loves cats",
+    "age": 3
+}, 
+{ 
+    "type": "rat", 
+    "name": "Karla", 
+    "personality": "constantly runs away",
+    "age": 1
+}, 
+{ 
+    "type": "horse", 
+    "name": "Snow", 
+    "personality": "fast and furious",
+    "age": 2
+}]
