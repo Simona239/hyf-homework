@@ -1,0 +1,42 @@
+[
+	{
+		"id" : 1,
+		"title" : "Amazing experience",
+		"description" : "Food was excellent, staff - super friendly, I am definitely comming back",
+		"meal_id" : 2,
+		"stars" : 5,
+		"created_date" : "2019.08.27"
+	},
+	{
+		"id" : 2,
+		"title" : "Worth trying",
+		"description" : "Liked the food, but the service could be more efficient",
+		"meal_id" : 3,
+		"stars" : 4,
+		"created_date" : "2019.08.20"
+	},
+	{
+		"id" : 3,
+		"title" : "Could be better",
+		"description" : "Nothing exceptional, and the soup was cold",
+		"meal_id" : 5,
+		"stars" : 3,
+		"created_date" : "2019.08.24"
+	},
+	{
+		"id" : 4,
+		"title" : "Waste of time",
+		"description" : "I am sure their home-made sandwiches are made by the staff of a nearby supermarket",
+		"meal_id" : 4,
+		"stars" : 2,
+		"created_date" : "2019.08.15"
+	},
+	{
+		"id" : 5,
+		"title" : "Average",
+		"description" : "It is fine to try, if you are very hungry",
+		"meal_id" : 1,
+		"stars" : 3,
+		"created_date" : "2019-08-28"
+    }
+] 

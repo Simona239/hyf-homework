@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "title": "Heavenly porridge",
+      "maxNumberOfGuests": 4,
+      "description": "Oatmeal porridge with almonds",
+      "createdAt": "2019.08.26",
+      "price": 3.55
+    },
+      
+    {
+      "id": 2,
+      "title": "Pulpo gallego",
+      "maxNumberOfGuests": 6,
+        "description": "Stewed octopus with paprika",
+        "createdAt": "2019.07.15",
+        "price": 9
+    },
+    
+    {
+      "id": 3,
+      "title": "Risotto ai funghi",
+      "maxNumberOfGuests" :2,
+      "description": "Mushroom risotto",
+      "createdAt": "2019.04.21",
+      "price": 12.45
+    },
+    
+    {
+      "id": 3,
+      "title": "Risotto ai funghi",
+      "maxNumberOfGuests" :2,
+      "description": "Mushroom risotto",
+      "createdAt": "2019.04.21",
+      "price": 12.45
+    },
+
+    {
+      "id": 4,
+      "title": "Vareniki of your dreams",
+      "maxNumberOfGuests" : 3,
+      "description": "Dumplings with blueberries",
+      "createdAt": "2019.08.07",
+      "price": 5
+    },
+
+    {
+      "id": 5,
+      "title": "Pink is the new black",
+      "maxNumberOfGuests" : 4,
+      "description": "Cold beetroot soup",
+      "createdAt": "2019.08.27",
+      "price": 2.50
+    }
+
+] 

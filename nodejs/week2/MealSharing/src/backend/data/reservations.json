@@ -1,0 +1,32 @@
+[
+    {
+      "name": "Kristen Thompson",
+      "email": "k.thomspon@gmail.com",
+      "mealId": 1
+    }, 
+
+    {
+      "name": "James Peters",
+      "email": "jd45@gmail.com",
+      "mealId": 2
+    },
+
+    {
+      "name": "Jasmin Parker",
+      "email": "jp@gmail.com",
+      "mealId": 3
+    },
+    
+    {
+      "name": "Lars Dam",
+      "email": "dam32@gmail.com",
+      "mealId": 4
+    }, 
+
+    {
+      "name": "Sandra Madsen",
+      "email": "s.madsen@gmail.com",
+      "mealId": 5
+    }
+   
+]
